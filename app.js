@@ -14,7 +14,7 @@ import { scheduleFollowUpEmail } from "./automation/followUpEmail.js";
 import { sendWebhookNotification } from "./utils/webhook.js"; 
 
 const app = express();
-config({ path: "./config/.env" });
+config({ path: "./.env" });
 
 app.use(
   cors({
